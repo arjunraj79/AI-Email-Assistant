@@ -52,8 +52,8 @@ Gmail Email ➝ Chrome Extension ➝ Spring Boot API ➝ Gemini via Spring AI �
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/smart-email-assistant.git
-cd smart-email-assistant
+git clone https://github.com/arjunraj79/AI-Email-Assistant.git
+cd AI-Email-Assistant
 ```
 
 ### 2. Backend Setup (Spring Boot)
