@@ -2,16 +2,36 @@
 # 📧 Smart Email Assistant with Spring Boot, Spring AI & Gemini
 
 An AI-powered Smart Email Assistant that helps users manage their Gmail inbox intelligently. It reads email content via a Chrome Extension and uses Gemini (Google's LLM) via Spring AI to summarize, classify, and generate smart replies.
-<img src="https://github.com/arjunraj79/AI-Email-Assistant/blob/main/spring.png">
+<br> <p align="center"> <img src="https://github.com/arjunraj79/AI-Email-Assistant/blob/main/spring.png" width="500"> </p>
 
 ---
 
 ## 🚀 Features
 
-- 🧠 AI-generated summaries of Gmail threads
 - ✍️ Context-aware reply suggestions using Gemini
+<br>
+
+<p align="center">
+  <img src="https://github.com/arjunraj79/AI-Email-Assistant/blob/main/generatedAiContent.png" width="500">
+</p>
+
+<br>
 - 📬 Chrome Extension to interact with Gmail content
+<br>
+
+<p align="center">
+  <img src="https://github.com/arjunraj79/AI-Email-Assistant/blob/main/extention.png" width="500">
+</p>
+
+<br>
 - 🔌 REST API built with Spring Boot & Spring AI
+<br>
+
+<p align="center">
+  <img src="https://github.com/arjunraj79/AI-Email-Assistant/blob/main/postmanBackendTest.png" width="500">
+</p>
+
+<br>
   
 ---
 
@@ -35,15 +55,28 @@ An AI-powered Smart Email Assistant that helps users manage their Gmail inbox in
 
 ```
 Gmail Email ➝ Chrome Extension ➝ Spring Boot API ➝ Gemini via Spring AI ➝ Smart Response/Summary ➝ Back to Gmail UI
+<br>
+
+<p align="center">
+  <img src="https://github.com/arjunraj79/AI-Email-Assistant/blob/main/ai_toolbar.png" width="500">
+</p>
+
+<br>
 ```
 
 ---
 
 ## 🧪 Example Use Cases
 
-- ✨ Generate polite, professional, or casual responses automatically
+- ✨ Generate polite, professional, friendly or casual responses automatically [or you can configure as per needed.]
 - 🔍 Extract key information from email bodies
+<br>
 
+<p align="center">
+  <img src="https://github.com/arjunraj79/AI-Email-Assistant/blob/main/reactFrontendDemo.png" width="500">
+</p>
+
+<br>
 ---
 
 ## 🛠 Setup Instructions
@@ -83,12 +116,25 @@ API will run at `http://localhost:8080`.
 - It sends the text to your Spring Boot backend
 - Spring AI uses Gemini to process the input and return a result (summary/reply)
 - The result is shown in the Gmail UI (via extension popup or injected UI)
+<br>
 
+<p align="center">
+  <img src="https://github.com/arjunraj79/AI-Email-Assistant/blob/main/generatedResponse.png" width="500">
+</p>
+
+<br>
 ---
 
 ## 🔁 Example API (Spring Boot)
 
 - Configure the api key in postman and check the working
+<br>
+
+<p align="center">
+  <img src="https://github.com/arjunraj79/AI-Email-Assistant/blob/main/setApiKey.png" width="500">
+</p>
+
+<br>
 - Then you can run the backend and on postman configure the url to route to the backend and post a request.
 
 
@@ -107,7 +153,13 @@ API will run at `http://localhost:8080`.
   "summary": "Follow-up on previous discussion with John regarding..."
 }
 ```
+<br>
 
+<p align="center">
+  <img src="https://github.com/arjunraj79/AI-Email-Assistant/blob/main/postmanBackendTest2.png" width="500">
+</p>
+
+<br>
 ---
 
 ## 🙌 Acknowledgements
