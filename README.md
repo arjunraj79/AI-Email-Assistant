@@ -55,6 +55,8 @@ An AI-powered Smart Email Assistant that helps users manage their Gmail inbox in
 
 ```
 Gmail Email ➝ Chrome Extension ➝ Spring Boot API ➝ Gemini via Spring AI ➝ Smart Response/Summary ➝ Back to Gmail UI
+
+```
 <br>
 
 <p align="center">
@@ -62,8 +64,6 @@ Gmail Email ➝ Chrome Extension ➝ Spring Boot API ➝ Gemini via Spring AI �
 </p>
 
 <br>
-```
-
 ---
 
 ## 🧪 Example Use Cases
