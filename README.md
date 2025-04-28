@@ -2,6 +2,7 @@
 # 📧 Smart Email Assistant with Spring Boot, Spring AI & Gemini
 
 An AI-powered Smart Email Assistant that helps users manage their Gmail inbox intelligently. It reads email content via a Chrome Extension and uses Gemini (Google's LLM) via Spring AI to summarize, classify, and generate smart replies.
+<img src="https://github.com/arjunraj79/AI-Email-Assistant/blob/main/spring.png">
 
 ---
 
