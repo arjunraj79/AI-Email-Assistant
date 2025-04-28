@@ -11,9 +11,7 @@ An AI-powered Smart Email Assistant that helps users manage their Gmail inbox in
 - ✍️ Context-aware reply suggestions using Gemini
 - 📬 Chrome Extension to interact with Gmail content
 - 🔌 REST API built with Spring Boot & Spring AI
-- 🔐 Optional user authentication and security
-- 🌐 Designed for future integration with other email clients
-
+  
 ---
 
 ## 🧰 Tech Stack
@@ -58,17 +56,6 @@ cd AI-Email-Assistant
 
 ### 2. Backend Setup (Spring Boot)
 
-#### Configure `application.yml`
-
-```yaml
-spring:
-  ai:
-    gemini:
-      api-key: YOUR_GEMINI_API_KEY
-  server:
-    port: 8080
-```
-
 #### Run the backend
 
 ```bash
@@ -84,7 +71,7 @@ API will run at `http://localhost:8080`.
 - Navigate to `chrome-extension/` directory (if in your repo)
 - Open Chrome and go to `chrome://extensions`
 - Enable **Developer Mode**
-- Click **Load Unpacked** and select the `chrome-extension/` folder
+- Click **Load Unpacked** and select the `chrome-extension/` folder - email-writer-ext
 - The extension will now be visible in your toolbar
 
 ---
@@ -100,7 +87,11 @@ API will run at `http://localhost:8080`.
 
 ## 🔁 Example API (Spring Boot)
 
-### `POST /api/email/summarize`
+- Configure the api key in postman and check the working
+- Then you can run the backend and on postman configure the url to route to the backend and post a request.
+
+
+### `POST  http://localhost:8080/api/email/generate`
 
 ```json
 {
